@@ -2,14 +2,14 @@ import { useEffect, useState } from 'react';
 import { FiUsers, FiDollarSign, FiPackage, FiCalendar } from 'react-icons/fi';
 
 const Home = () => {
-  const [stats, setStats] = useState([
+  const [stats] = useState([
     { title: 'Usuarios activos', value: '1,342', icon: <FiUsers className="text-blue-500" />, change: '+12%' },
     { title: 'Ventas hoy', value: '$8,420', icon: <FiDollarSign className="text-green-500" />, change: '+5.2%' },
     { title: 'Nuevos pedidos', value: '156', icon: <FiPackage className="text-purple-500" />, change: '+3.1%' },
     { title: 'Eventos', value: '24', icon: <FiCalendar className="text-orange-500" />, change: '-2%' }
   ]);
 
-  const [recentActivities, setRecentActivities] = useState([
+  const [recentActivities] = useState([
     { id: 1, user: 'Juan Pérez', action: 'Nuevo pedido #4521', time: 'Hace 5 min', icon: <FiPackage /> },
     { id: 2, user: 'María Gómez', action: 'Actualizó perfil', time: 'Hace 12 min', icon: <FiUsers /> },
     { id: 3, user: 'Carlos Ruiz', action: 'Realizó pago', time: 'Hace 25 min', icon: <FiDollarSign /> },
