@@ -1,5 +1,5 @@
-# Project Management Frontend
-Frontend del Administrador de Proyectos hecho con React + Vite + Typescript.
+# Project Management Frontend Básico
+Frontend Básico del Administrador de Proyectos hecho con React + Vite + Typescript.
 
 # 🚀 Acerca de este proyecto
 
